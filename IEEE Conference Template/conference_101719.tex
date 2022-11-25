@@ -57,6 +57,7 @@ email address or ORCID}
 \maketitle
 
 \begin{abstract}
+\input{abstract}
 This document is a model and instructions for \LaTeX.
 This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
 or Math in Paper Title or Abstract.
@@ -67,22 +68,12 @@ component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
 \section{Introduction}
+\input{introduction}
 This document is a model and instructions for \LaTeX.
 Please observe the conference page limits. 
 
-\section{Ease of Use}
-
-\subsection{Maintaining the Integrity of the Specifications}
-
-The IEEEtran class file is used to format your paper and style the text. All margins, 
-column widths, line spaces, and text fonts are prescribed; please do not 
-alter them. You may note peculiarities. For example, the head margin
-measures proportionately more than is customary. This measurement 
-and others are deliberate, using specifications that anticipate your paper 
-as one part of the entire proceedings, and not as an independent document. 
-Please do not revise any of the current designations.
-
-\section{Prepare Your Paper Before Styling}
+\section{Related works}
+\input{related_works}
 Before you begin to format your paper, first write and save the content as a 
 separate text file. Complete all content and organizational editing before 
 formatting. Please note sections \ref{AA}--\ref{SCM} below for more information on 
@@ -139,6 +130,12 @@ equation numbers displayed. If you forget that, you might write an
 article in which the equation numbers skip from (17) to (20), causing
 the copy editors to wonder if you've discovered a new method of
 counting.
+
+\section{CNN-based fast source device identification}
+\input{paper}
+
+\section{Initial experiments}
+\input{demo}
 
 {\BibTeX} does not work by magic. It doesn't get the bibliographic
 data from thin air but from .bib files. If you use {\BibTeX} to produce a
