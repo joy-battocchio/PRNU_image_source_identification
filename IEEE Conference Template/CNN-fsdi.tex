@@ -1,0 +1,11 @@
+We were assigned the paper \textit{CNN-based fast source device identification}\ref{AA} by, \textit{Mandelli et al.}
+
+In this paper the authors propose a CNN-based approach to address the problem of source device identification based on PRNU. 
+In particular, their goal is to replace the PCE test with an alternative method based on CNN.
+
+The core idea of this paper is to use a 2-channel CNN to compare the estimated device PNRU $K_d$ with the noise residual $W$ 
+obtained from the given test image $I$.
+First of all they estimate the device PRNU $K_d$ from a set of flat-field images taken from the same device and they extract the
+noise residual $W$ from a set of images depicting natural scenes.
+Then they crop the central $P$x$P$ pixel region from both $K_d$ and $W$ and they feed the CNN with these 2 image patches.
+The CNN is composed of 
