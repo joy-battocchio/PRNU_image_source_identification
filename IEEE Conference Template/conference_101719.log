@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.14)  25 NOV 2022 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.14)  27 NOV 2022 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -258,63 +258,61 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+)) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
- (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/introduction.tex) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works)
-
-LaTeX Warning: Reference `AA' on page 1 undefined on input line 79.
+) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/introduction.tex) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Reference `SCM' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 113.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 113.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 113.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 114.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 118.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+]) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 88.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex) (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex) [2]
+<fig1.png, id=20, 82.1469pt x 71.5473pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 199.
+(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 210.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
+ [3 </Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png (PNG copy)>]
 
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
 
-] (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex)
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
 
-! LaTeX Error: File `demo.tex' not found.
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+[4
 
-Enter file name: 
-/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.tex:138: Emergency stop.
-<read *> 
-         
-l.138 \input{demo}
-                  ^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
+] (/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.aux) ) 
 Here is how much of TeX's memory you used:
- 3984 strings out of 478994
- 59290 string characters out of 5858184
- 366014 words of memory out of 5000000
- 21419 multiletter control sequences out of 15000+600000
- 450608 words of font info for 124 fonts, out of 8000000 for 9000
+ 4011 strings out of 478994
+ 60104 string characters out of 5858184
+ 366088 words of memory out of 5000000
+ 21431 multiletter control sequences out of 15000+600000
+ 448530 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,411b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.tex:138:  ==> Fatal error occurred, no output PDF file produced!
+ 68i,11n,74p,684b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.pdf" (4 pages, 139342 bytes).
+PDF statistics:
+ 67 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
