@@ -288,43 +288,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex
@@ -337,11 +300,28 @@ INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Con
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/abstract.tex
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/introduction.tex
@@ -360,30 +340,23 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_joy.tex
 OUTPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
@@ -393,22 +366,89 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/related_works.tex
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/demo.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
-INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/paper.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/fig1.png
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
+INPUT /Users/joy/Desktop/Master/T&A_CV/PRNU_image_source_identification/IEEE Conference Template/conference_101719.aux
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
