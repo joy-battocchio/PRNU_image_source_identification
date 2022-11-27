@@ -32,7 +32,7 @@ def main():
     nat_device = np.array([os.path.split(i)[1].rsplit('_', 1)[0] for i in nat_dirlist])
 
     fingerprint_device = sorted(np.unique(ff_device))
-    print("In the dataset there are", len(fingerprint_device),"differet cameras\n")
+    print("In the dataset there are", len(fingerprint_device),"different cameras\n")
     print('Computing fingerprints')
     
     compute = False
