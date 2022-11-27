@@ -58,10 +58,10 @@ def main():
             k += [prnu.extract_multiple_aligned(imgs, processes=cpu_count())]
 
         k = np.stack(k, 0)
-        np.save("prova.npy",k)
+        np.save("fingerprints_PRNU.npy",k)
 
     else:
-        k = np.load("prova.npy")
+        k = np.load("fingerprints_PRNU.npy")
     
     print('Computing residuals')
 
