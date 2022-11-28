@@ -28,8 +28,16 @@ These metrics are:
 \end{itemize}
 As it is written above, these features are then used by a SVM to classify the right source camera.
 \textcolor{red}{insert cons??}
+
 \subsection{Lukáš et al.}
 In the "Digital camera identification from sensor pattern noise" paper, the authors proposed a new method for the camera identification problem that is based on the sensor's pattern noise. 
 The basic idea is to compute for each camera a pattern noise that can act as a unique fingerprint. Then, if you want to identify the camera that shoot a specific photo, the paper suggests to use a correlation filter in order to compare the noise residual of the image with the fingerprint of all the cameras inside the dataset.
 
-In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem.
+In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem. One of the dominant parts of the pattern noise is the photo-response nonuniformity noise (PRNU). It is caused by the inhomogenity of silicon wafers and imperfections during the sensor manufacturing process. Given the character and these origins, is unlikely that different sensors exhibit correlated noise patterns.
+
+The algorithm proposed by the authors of the paper states that if you want to verify that a specific image $\boldsymbol{p}$ was taken by the camera $C$, we first have to compute the fingerprint (reference pattern) $\boldsymbol{P}_C$ and then establish the presence of this reference pattern in $\boldsymbol{p}$ using the correlation. Is possible to obtain an approximation of the PRNU noise by averaging multiple images. However, if you want to speed up the process, you can suppress the scene content from the image by applying a denoising filter $F$ and then averaging the noise residuals $\boldsymbol{n}^{(k)}$
+	\[ \boldsymbol{n}^{(k)} = \boldsymbol{p}^{(k)} -  F(\boldsymbol{p}^{(k)})\]
+The authors experimented with several denoising filters and they decided to use the wavelet-based one. 
+To decide if an image $\boldsymbol{p}$ was taken by the camera $C$ they calculated the correlation $\rho_C$ between the noise residual and the camera reference pattern $\boldsymbol{P}_C$
+\[ \rho_C(\boldsymbol{p}) = corr(\boldsymbol{n}, \boldsymbol{P}_C) = \frac{(n-\bar{n})*(P_C - \bar{P}_C)}{||n-\bar{n}||||P_C-\bar{P}_C||}	\]
+\textcolor{red}{Inserire cosa ha portato al nostro paper questo metodo. Per esempio ci permette di calcolare i PRNU e noise residuals da immettere nella network}
