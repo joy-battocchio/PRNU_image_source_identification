@@ -1,3 +1,10 @@
+\begin{figure}[t!]
+    \centering
+    \includegraphics[keepaspectratio, width=0.5\textwidth]{CNN_architecture}
+    \caption{Pair-Wise Correlation Network (PCN) architecture}
+    \label{fig:CNN_architecture}
+\end{figure}
+
 We were assigned the paper \textit{CNN-based fast source device identification}\ref{AA} by, \textit{Mandelli et al.}
 
 In this paper the authors propose a CNN-based approach to address the problem of source device identification based on PRNU. 
@@ -12,7 +19,7 @@ noise residual $W$ from a set of images depicting natural scenes.
 Then they crop the central $P$x$P$ pixel region from both $K_d$ and $W$ and they feed the CNN with these 2 image patches.
 Since the method is independent from the used CNN they experiment different pre-trained networks and they propose a simple but 
 effective architecture that is composed of 3 convolutional layers, a pair-wise correlation pooling layer and a fully connected 
-layer (Fig 1). The pair-wise correlation pooling layer computes the correlation between adjacent pairs of features, while the
+layer (Fig. \ref{fig:CNN_architecture}). The pair-wise correlation pooling layer computes the correlation between adjacent pairs of features, while the
 fully connected layer outputs an identification score $C_s$ that is high for coherent pairs and low for non-coherent ones. 
 
 The network can be used in both a closed-set scenario and in an open-set scenario. In the closed-set scenario we have a finite set 
