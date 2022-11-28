@@ -5,7 +5,7 @@
     \label{fig:CNN_architecture}
 \end{figure}
 
-We were assigned the paper \textit{CNN-based fast source device identification}\ref{AA} by, \textit{Mandelli et al.}
+We were assigned the paper \textit{CNN-based fast source device identification} [ref] by, \textit{Mandelli et al.}
 
 In this paper the authors propose a CNN-based approach to address the problem of source device identification based on PRNU. 
 In particular, their goal is to replace the PCE test with an alternative method based on CNN. Their approach differs from the one
@@ -27,11 +27,35 @@ of devices and we have to identify the source of the image from that set. In the
 device and we have to tell if that device shot the given image.
 
 The authors shows that in both the open and closed set scenario the proposed approach outperforms the PCE test both in accuracy 
-and inference time. In particular, regarding the closed set scenario, we can see from (Fig 2) that the proposed Pair-wise Correlation Net (PCN) is faster than all the 
+and inference time. In particular, regarding the closed set scenario, we can see from (Fig. \ref{fig:Closed_set_test}) 
+that the proposed Pair-wise Correlation Net (PCN) is faster than all the 
 other architectures and it outperforms PCE in accuracy, however it is outperformed by the other networks. It is important to notice 
 also that all the methods perform better when the patch size is bigger.
-Regarding the open set scenario, the area under the ROC curve related to the patch size is shown in (Fig 3) and it's clear that 
-PCE is worst than all proposed architectures. 
-Finally, in (Fig 4), we can see the accuracy as a function of crop size when the dataset is double-JPEG compressed. The PCN outperforms
-PCE even after double compression and we can notice that the performances are better when both the PRNU and the noise residual are 
-extracted from double compressed images.
+Regarding the open set scenario, the area under the ROC curve related to the patch size is shown in (Fig. \ref{fig:Open_set_test})  and it's clear that 
+PCE is worst than all the proposed architectures. 
+Finally, in (Fig. \ref{fig:Double_JPEG_compression}), we can see the accuracy as a function of crop size when the dataset is double-JPEG compressed. 
+The PCN outperforms PCE even after double compression and we can notice that the performances are better when the network is trained on 
+data where the noise residual is extracted from double compressed images.
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[keepaspectratio, width=0.5\textwidth]{Closed_set_test}
+    \caption{Accuracy $A_cs$ as a function of time [milliseconds] and crop size $P$.}
+    \label{fig:Closed_set_test}
+\end{figure}
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[keepaspectratio, width=0.5\textwidth]{Open_set_test}
+    \caption{Area under the ROC curve $AUC_os$ as a function of crop size $P$.}
+    \label{fig:Open_set_test}
+\end{figure}
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[keepaspectratio, width=0.5\textwidth]{Double_JPEG_compression}
+    \caption{Accuracy $A_cs$ as a function of crop size $P$, considering double-JPEG
+    compressed dataset with quality 90 and PCN network. $T(·)$ and $E(·)$ refer
+    to training and evaluation datasets, respectively.}
+    \label{fig:Double_JPEG_compression}
+\end{figure}
