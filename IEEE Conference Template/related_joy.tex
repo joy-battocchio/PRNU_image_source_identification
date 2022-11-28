@@ -28,3 +28,8 @@ These metrics are:
 \end{itemize}
 As it is written above, these features are then used by a SVM to classify the right source camera.
 \textcolor{red}{insert cons??}
+\subsection{Lukáš et al.}
+In the paper "Digital camera identification from sensor pattern noise" the authors proposed a new method for the camera identification problem that is based on the sensor's pattern noise. 
+The basic idea is to compute for each camera a pattern noise that can act as a unique fingerprint. Then, if you want to identify the camera that shoot a specific photo, the paper suggests to use a correlation filter in order to compare the noise residual of the image with the fingerprint of all the cameras inside the dataset.
+
+In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem.
