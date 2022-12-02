@@ -98,6 +98,7 @@ def main():
 
     print('\nAUC on CC {:.2f}'.format(stats_cc['auc']))
     print('AUC on PCE {:.2f}'.format(stats_pce['auc']))
+    print('\nAccuracy on PCE {:.2f}'.format(stats_pce['acc']))
 
     
     residual = []

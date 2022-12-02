@@ -12,7 +12,7 @@ import numpy as np
 import pywt
 from numpy.fft import fft2, ifft2
 from scipy.ndimage import filters
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import roc_curve, auc, accuracy_score
 from tqdm import tqdm
 
 
@@ -523,6 +523,7 @@ def stats(cc: np.ndarray, gt: np.ndarray, ) -> dict:
 
     fpr, tpr, th = roc_curve(gt.flatten(), cc.flatten())
     auc_score = auc(fpr, tpr)
+    acc_score = accuracy_score(gt.flatten(), cc.flatten())
 
     # EER
     eer_idx = np.argmin((fpr - (1 - tpr)) ** 2, axis=0)
@@ -533,6 +534,7 @@ def stats(cc: np.ndarray, gt: np.ndarray, ) -> dict:
         'fpr': fpr,
         'th': th,
         'auc': auc_score,
+        'acc': acc_score,
         'eer': eer,
     }
 
