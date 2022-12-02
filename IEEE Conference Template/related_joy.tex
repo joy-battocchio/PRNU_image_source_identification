@@ -13,31 +13,24 @@ The authors of "Blind source camera identification" propose to extract handcraft
 \\The chosed features are the ones that bring more evidence of the CFA configuration and the color processing carried out by the camera, which should be unique for each sensor and therefore useful for their identification.
 \\In particular they are:
 \begin{itemize}
-    \item \textbf{Average pixel value}. Average values in RGB channels of an image should average to gray assuming that the images has enough color variations.
+    \item \textbf{Average pixel value}. Values in RGB channels of an image should average to gray assuming that the images has enough color variations.
     \item \textbf{RGB pairs correlation}. Capture the fact that depending on the camera structure, the correlation between different color bands could varies.
-    \item \textbf{Neighbor distribution Center of mass}. Calculating the number of pixel neighbors for each pixel value, where the pixel neighbors are defined as all pixels having a difference in value of 1 or -1, from the pixel value in question. This is calculated for each color band.
+    \item \textbf{Neighbor distribution Center of mass}. Calculate the number of pixel neighbors for each pixel value, where the pixel neighbors are defined as all pixels having a difference in value of 1 or -1, from the pixel value in question. This is calculated for each color band.
     \item \textbf{RGB pairs energy ratio}. It is used in the process of white point correction.
     \item \textbf{Wavelet domain statistic}. Decompose each color band of the image using separable quadratic mirror filters and then calculate the mean for each of the 3 resulting sub-bands.
 \end{itemize}
 In addition to these features, different cameras produce images of different quality, so we can extract the Image Quality Metrics as features to aid in distinguishing between cameras. 
-These metrics are:
-\begin{itemize}
-    \item \textbf{Pixel difference based measures}. Mean squared error, mean absolute error, ...
-    \item \textbf{Correlation based measures}. Normalized cross correlation, ...
-    \item \textbf{Spectral distance based measures}. Spectral phase and magnitude errors.
-\end{itemize}
-As it is written above, these features are then used by a SVM to classify the right source camera.
-\textcolor{red}{insert cons??}
+As it is written above, all these features are then used by a SVM to classify the right source camera.
 
 \subsection{Lukáš et al.}
 In the "Digital camera identification from sensor pattern noise" paper, the authors proposed a new method for the camera identification problem that is based on the sensor's pattern noise. 
 The basic idea is to compute for each camera a pattern noise that can act as a unique fingerprint. Then, if you want to identify the camera that shoot a specific photo, the paper suggests to use a correlation filter in order to compare the noise residual of the image with the fingerprint of all the cameras inside the dataset.
 
-In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem. One of the dominant parts of the pattern noise is the photo-response nonuniformity noise (PRNU). It is caused by the inhomogenity of silicon wafers and imperfections during the sensor manufacturing process. Given the character and these origins, is unlikely that different sensors exhibit correlated noise patterns.
+In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem. One of the dominant parts of the pattern noise is the photo-response nonuniformity noise (PRNU). It is caused by the inhomogenity of silicon wafers and imperfections during the sensor manufacturing process. Given the character and these origins, it is unlikely that different sensors exhibit correlated noise patterns.
 
-The algorithm proposed by the authors of the paper states that if you want to verify that a specific image $\boldsymbol{p}$ was taken by the camera $C$, we first have to compute the fingerprint (reference pattern) $\boldsymbol{P}_C$ and then establish the presence of this reference pattern in $\boldsymbol{p}$ using the correlation. Is possible to obtain an approximation of the PRNU noise by averaging multiple images. However, if you want to speed up the process, you can suppress the scene content from the image by applying a denoising filter $F$ and then averaging the noise residuals $\boldsymbol{n}^{(k)}$
+The algorithm proposed by the authors of the paper states that if you want to verify whether a specific image $\boldsymbol{p}$ was taken by the camera $C$, we first have to compute the fingerprint (reference pattern) $\boldsymbol{P}_C$ and then establish the presence of this reference pattern in $\boldsymbol{p}$ using the correlation. It is possible to obtain an approximation of the PRNU noise by averaging multiple images. However, if you want to speed up the process, you can suppress the scene content from the image by applying a denoising filter $F$ and then averaging the noise residuals $\boldsymbol{n}^{(k)}$
 	\[ \boldsymbol{n}^{(k)} = \boldsymbol{p}^{(k)} -  F(\boldsymbol{p}^{(k)})\]
 The authors experimented with several denoising filters and they decided to use the wavelet-based one. 
 To decide if an image $\boldsymbol{p}$ was taken by the camera $C$ they calculated the correlation $\rho_C$ between the noise residual and the camera reference pattern $\boldsymbol{P}_C$
 \[ \rho_C(\boldsymbol{p}) = corr(\boldsymbol{n}, \boldsymbol{P}_C) = \frac{(n-\bar{n})*(P_C - \bar{P}_C)}{||n-\bar{n}||||P_C-\bar{P}_C||}	\]
-\textcolor{red}{Inserire cosa ha portato al nostro paper questo metodo. Per esempio ci permette di calcolare i PRNU e noise residuals da immettere nella network}
+%\textcolor{red}{Inserire cosa ha portato al nostro paper questo metodo. Per esempio ci permette di calcolare i PRNU e noise residuals da immettere nella network}

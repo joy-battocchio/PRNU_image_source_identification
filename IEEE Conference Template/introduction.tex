@@ -1,13 +1,14 @@
 Source identification is one of the most important tasks in digital image forensics. 
 In fact, the ability to reliably associate an image with its acquisition device may be crucial both during investigations and before a court of law.
-The key assumption of forensic source identification is that acquisition devices leave traces in the acquired content, and that instances of these traces are specific to the respective (class of) device(s). 
+The key assumption of forensics source identification is that acquisition devices leave traces in the acquired content, and that instances of these traces are specific to the respective (class of) device(s). 
 This kind of traces is present in the so-called device fingerprint.
 A major impulse to research in this field came with the seminal work of Lukas et al. showing that reliable device identification is possible based on the camera photo-response non uniformity (PRNU) pattern. 
-This is a multiplicative noise component caused by the inhomogeneity of silicon wafers and imperfections of the sensor manufacturing, which, in turn, cause a non-uniform sensitivity to light among the sensor photo-diodes. 
-This means that a pixel could be slightly brighter or darker than expected by camera design, and each pixel is individually affected by this issue. Each camera is characterized by its unique PRNU pattern, which can be regarded as a sort of camera fingerprint.
-All photos taken by a given camera carry traces of its fingerprint which, under suitable hypotheses, can be retrieved, enabling reliable device identification and, with some further processing, also brand and model identification.
-In order to compose your camera fingerprint, the best possible scenario and condition is flat images of blue or cloudy sky.
-Due to spatial transformations, filtering, AI post-processing and more in general in-device or out-device post-processing, PRNU is today more than ever compromised. 
+%This is a multiplicative noise component caused by the inhomogeneity of silicon wafers and imperfections of the sensor manufacturing, which, in turn, cause a non-uniform sensitivity to light among the sensor photo-diodes. 
+%This means that a pixel could be slightly brighter or darker than expected by camera design, and each pixel is individually affected by this issue. 
+Each camera is characterized by its unique PRNU pattern, which can be regarded as a sort of camera fingerprint.
+All photos taken by a given camera carry traces of its fingerprint which, under suitable hypotheses, can be retrieved, enabling reliable device identification and brand and model identification as well.
+%In order to compose your camera fingerprint, the best possible scenario and condition is flat images of blue or cloudy sky.
+However, due to spatial transformations, filtering, AI post-processing and more in general in-device or out-device post-processing, PRNU is today more than ever compromised. 
 Even for media coming from the exact same device, it is really difficult that we can compare the two PRNUs of these ones straightforwardly, but we need to resynchronize one with respect to the other.
 In fact, Mandelli et al.'s work is based on the assumption that the images are already geometrically synchronized.
 Its main contribution is using a 2 channel CNN network that for every device d $\in$ DT is fed using noise residuals coming from device d, paired with PRNU K$_{d}$ (coherent pair) and with PRNU K$_{d}^{-}$ coming from a different device (non-coherent pair). 

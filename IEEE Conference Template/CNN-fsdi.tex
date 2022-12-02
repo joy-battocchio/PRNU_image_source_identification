@@ -5,9 +5,7 @@
     \label{fig:CNN_architecture}
 \end{figure}
 
-We were assigned the paper \textit{CNN-based fast source device identification} \cite{Mandelli}.
-
-In this paper the authors propose a CNN-based approach to address the problem of source device identification based on PRNU. 
+In the "\textit{CNN-based fast source device identification}" \cite{Mandelli} paper the authors propose a CNN-based approach to address the problem of source device identification based on PRNU. 
 In particular, their goal is to replace the PCE test with an alternative method based on CNN. Their approach differs from \cite{Bondi}
 because they train an end-to-end network instead of using a CNN followed by an SVM.
 
@@ -18,7 +16,7 @@ First of all they estimate the device PRNU\cite{Lukas} $K_d$ from a set of flat-
 noise residual $W$ from a set of images depicting natural scenes.
 Then they crop the central $P$x$P$ pixel region from both $K_d$ and $W$ and they feed the CNN with these 2 image patches.
 Since the method is independent from the used CNN they experiment different pre-trained networks and they propose a simple but 
-effective architecture that is composed of 3 convolutional layers, a pair-wise correlation pooling layer and a fully connected 
+effective architecture that is composed by 3 convolutional layers, a pair-wise correlation pooling layer and a fully connected 
 layer (Fig. \ref{fig:CNN_architecture}). The pair-wise correlation pooling layer computes the correlation between adjacent pairs of features, while the
 fully connected layer outputs an identification score $C_s$ that is high for coherent pairs and low for non-coherent ones. 
 

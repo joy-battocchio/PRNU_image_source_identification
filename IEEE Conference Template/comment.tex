@@ -1,0 +1,11 @@
+\subsection{Final comment}
+In \cite{Kharrazi} are described the bases of using sensor-specific informations to identify 
+the source of an image, however it was not clear which of the many analized handcrafted features were the more important for this task.
+After this work it is clear that the direction is to gain a better understanding on the relevant component of the camera fingerprint.\newline
+The next milestone \cite{Lukas} analizes and categorizes the sources of deterministic noise, where PRNU results to be the most relevant for solving our problem.
+They also describe the way to extract the PRNU from the images, the same method is used in the reference paper \cite{Mandelli}.
+Lastly in \cite{Bondi} CNN are used to extract automatically the relevant features. After the great success of NN they have been used broadly for all kind of tasks,
+and many advantages as still to be discovered. In this example CNN are used without considering what has been learned about PRNU in the previous works; 
+the reason for this could be that the authors wanted to find a way to learn automatically what is relevant to identify the source without rely on human knowledge (approach that has been successful in other applications),
+or just because it is to be considered as a first and incomplete try to use CNN in image forensics.
+Anyway all these groups helped Mandelli et al. \cite{Mandelli} to describe and implement a method that relies on all the relevant aspects of their discoveries and outperforms them.
