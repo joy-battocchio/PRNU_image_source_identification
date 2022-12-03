@@ -1,15 +1,15 @@
 Of all the related works cited in the main paper, it has been decided to focus on three:
 \begin{itemize}
-    \item \textbf{Kharrazi et al.} "Blind source camera identification"\cite{Kharrazi}
-    \item \textbf{Lukáš et al.} "Digital camera identification from sensor pattern noise"\cite{Lukas}
-    \item \textbf{Bondi et al.} "First Steps Toward Camera Model Identification with Convolutional Neural Networks"\cite{Bondi}
+    \item \textbf{Kharrazi et al.} ``Blind source camera identification"\cite{Kharrazi}
+    \item \textbf{Lukáš et al.} ``Digital camera identification from sensor pattern noise"\cite{Lukas}
+    \item \textbf{Bondi et al.} ``First Steps Toward Camera Model Identification with Convolutional Neural Networks"\cite{Bondi}
 \end{itemize}
 The choice is motivated by the influence that these three works had on the Mandelli's one.
 They all represent important milestones in the solution of the source identification problem.
 For this reason it has been decided to present them in temporal order of publication, because each one of them gives an additional contribution and it's logically dependent on the previous ones.
 
 \subsection{Kharrazi et al.}
-The authors of "Blind source camera identification" propose to extract handcrafted features from images in order to use them as input for a SVM classifier.
+The authors of ``Blind source camera identification" propose to extract handcrafted features from images in order to use them as input for a SVM classifier.
 \\The chosed features are the ones that bring more evidence of the CFA configuration and the color processing carried out by the camera, which should be unique for each sensor and therefore useful for their identification.
 \\In particular they are:
 \begin{itemize}
@@ -23,7 +23,7 @@ In addition to these features, different cameras produce images of different qua
 As it is written above, all these features are then used by a SVM to classify the right source camera.
 
 \subsection{Lukáš et al.}
-In the "Digital camera identification from sensor pattern noise" paper, the authors proposed a new method for the camera identification problem that is based on the sensor's pattern noise. 
+In the ``Digital camera identification from sensor pattern noise" paper, the authors proposed a new method for the camera identification problem that is based on the sensor's pattern noise. 
 The basic idea is to compute for each camera a pattern noise that can act as a unique fingerprint. Then, if you want to identify the camera that shoot a specific photo, the paper suggests to use a correlation filter in order to compare the noise residual of the image with the fingerprint of all the cameras inside the dataset.
 
 In the image acquisition process, there are many sources of imperfections and noise that can enter into various phases. Among these noises, we can identify two types of noise: \textit{shot noise} (a random component) and \textit{pattern noise}. The latter is a deterministic component that has the characteristic of remaining approximately the same if different images of the same scene are taken. This is why this type of noise can be used for the camera identification problem. One of the dominant parts of the pattern noise is the photo-response nonuniformity noise (PRNU). It is caused by the inhomogenity of silicon wafers and imperfections during the sensor manufacturing process. Given the character and these origins, it is unlikely that different sensors exhibit correlated noise patterns.
