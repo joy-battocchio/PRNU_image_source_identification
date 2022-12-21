@@ -4,6 +4,10 @@
 @author: Paolo Bestagini (paolo.bestagini@polimi.it)
 @author: Nicolò Bonettini (nicolo.bonettini@polimi.it)
 Politecnico di Milano 2018
+
+Modified by
+Alessio Belli (alessio.belli@studenti.unitn.it)
+Alberto Casagrande (alberto.casagrande@studenti.unitn.it)
 """
 
 import os
@@ -35,7 +39,7 @@ def main():
     print("In the dataset there are", len(fingerprint_device),"different cameras\n")
     print('Computing fingerprints')
     
-    compute = False
+    compute = True
 
     temp = []
     k = []      # are all the different PRNU's 
@@ -97,10 +101,20 @@ def main():
     stats_pce = prnu.stats(pce_rot, gt)
 
     print('\nAUC on CC {:.2f}'.format(stats_cc['auc']))
+    print("Accuracy CC ",f'{accuracy_score(gt.argmax(0), cc_aligned_rot.argmax(0)):.3f}')
     print('AUC on PCE {:.2f}'.format(stats_pce['auc']))
-    print('\nAccuracy on PCE {:.2f}'.format(stats_pce['acc']))
+    print("Accuracy PCE ",f'{accuracy_score(gt.argmax(0), pce_rot.argmax(0)):.3f}')
 
-    
+    print("Execution time PCE: ", et-st, " seconds")
+    a = confusion_matrix(gt.argmax(0), pce_rot.argmax(0))
+    an = a.astype('float')/a.sum(axis=1)[:, np.newaxis]
+    df_cm = pd.DataFrame(an, range(len(fingerprint_device)), range(len(fingerprint_device)))
+    plt.figure(figsize=(20,15))
+    sn.set(font_scale=1) # for label size
+    sn.heatmap(df_cm, annot=True, annot_kws={"size": 8}) # font size
+    plt.show()
+
+    # Identify the name of the camera that took a specific image
     residual = []
     img_path = "test/data/nat-jpg/Apple_iPhone4s_0_0032.jpg"
     im = Image.open(img_path)
